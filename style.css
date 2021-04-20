@@ -1,0 +1,158 @@
+body{
+	background-color: #ccffcc;
+	font-family: sans-serif;
+}
+#nav{
+	background-color: orange;
+	top:0;
+}
+#form{
+	position:relative;
+	top:80px;
+	max-width: 500px;
+	padding: 15px;
+	margin: 0 auto;
+	border-radius: 0.3em;
+	background-color: green;
+	text-align: center;
+	color: white;
+	border-radius: 25px;
+}
+#error{
+	color: orange;
+	font-size: 20px;
+}
+.flabel{
+	font-size: 20px;
+}
+
+ul.bar {
+  display: inline;
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 5px;
+  padding-top: 20px;
+  background-color: green;
+  position: relative;
+  bottom: 20px;
+}
+input{
+	padding: 5px;
+	margin: 1px;
+	width: 200px;
+}
+.submit{
+	padding: 8px;
+	font-size: 15px;
+	margin: 5px;
+	background-color: #ccffcc;
+	cursor: pointer;
+}
+.submit:hover{
+	background-color: green;
+	color: white;
+}
+#more{
+	background-color: green;
+	color: white;
+}
+#more:hover{
+	color: orange;
+	cursor: pointer;
+}
+#state{
+	display: none;
+}
+#ob:hover{
+	cursor: pointer;
+}
+.flabel{
+	display: inline-block;
+	width: 200px;
+}
+.menu {
+  display: inline;
+  padding: 3px;
+  font-size: 27px;
+  margin: 3px;
+  font-weight: bold;
+  text-align: center;
+}
+.req{
+	color: red;
+	font-size: 20px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.menu a:hover{
+	color: orange;
+}
+.pagination {
+  display: block;
+  position:relative;
+  left:300px;
+}
+
+.pagination a {
+  color: black; 
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a:hover{
+	background-color: green;
+    color: white;
+	cursor: pointer;
+}
+.head{
+	padding: 5px;
+	font-size: 30px;
+	margin: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+#log{
+	display: none;
+}
+.container {
+  position: relative;
+  width: 45%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height:400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: green;
+  color: white;
+  width: 600px;
+  font-size: 16px;
+  padding: 12px 20px;
+}

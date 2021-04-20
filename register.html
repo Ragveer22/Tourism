@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" >
+<script src="script.js"></script>
+</head>
+<body>
+<div id="nav">
+<a href="new.html"><img src="logo.png" id="logo" /></a>
+<ul class="bar">
+<li class="menu"><a href="new.html">Home</a></li>
+<li class="menu"><a href="top.html">Top Destinations</a></li>
+<li class="menu"><a id="ob" onclick="alert('Online Booking Unavailable Due to Pandemic');">Online Booking</a></li>
+<li class="menu"><a id="cc" onmouseover="mouseover()" onmouseout="mouseout()">Customer Care No</a></li>
+<li class="menu"><a href="register.html">Registration Form</a></li>
+</ul><hr>
+</div>
+<div id="form">
+<span class="head">Register</span>
+<!-- <span class="head" onclick="showLogin()">Login</span> -->
+<br><br><br>
+<!-- <form id="regi" method="post"> -->
+<div id="regi">
+  <label class="flabel" for="fname">Full name<span class="req">*</span>:</label>
+  <input class="inp" type="text" id="fname" placeholder="Enter Name" /><br><br>
+  <label class="flabel" for="age">Age<span class="req">*</span>:</label>
+  <input class="inp" type="number" id="age" name="age" placeholder="Enter Age (20-27)" /><br><br>
+  <label class="flabel"for="email">Email Id<span class="req">*</span>:</label>
+  <input class="inp" type="email" id="email" name="email" placeholder="Enter Email Id" /><br><br>
+  <label class="flabel" for="mob">Mobile Number<span class="req">*</span>:</label>
+  <input class="inp" type="text" id="mob" name="mob" placeholder="Enter Mobile Number" /><br><br>
+  <label class="flabel" for="add">Address<span class="req">*</span>:</label>
+  <input class="inp" type="textarea" id="add" name="add" placeholder="Enter Address" /><br><br>
+  <label class="flabel" for="query">Any Queries:</label>
+  <input class="inp" type="textarea" id="query" name="query" placeholder="Enter Your Queries" /><br><br>
+  <p id="error">Fields marked with <span class="req">*</span> are mandatory</p>
+  <button id="reset" class="submit" onclick="resetData()">Reset</button>
+  <button id="submit" class="submit" onclick="submitData()">Submit</button>
+ </div>
+<!-- </form>  -->
+<!-- <form id="log" method="post"> -->
+  <!-- <label class="flabel"for="email">Email Id:</label> -->
+  <!-- <input class="" type="email" id="email" name="email" placeholder="Enter Email Id" /><br><br> -->
+  <!-- <label class="flabel" for="mob">Mobile Number:</label> -->
+  <!-- <input class="" type="text" id="mob" name="mob" placeholder="Enter Mobile Number" /><br><br> -->
+  <!-- <button id="reset2" class="submit">Reset</button> -->
+  <!-- <button id="submit2" class="submit" >Submit</button> -->
+<!-- </form>  -->
+</div>
+</body>
